@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Front-End Final" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Front-End, Website, JS, HTML&CSS"
+    />
+    <meta name="author" content="Tengo Berishvili" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>2025 F1 Constructor Standings</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>RedLine F1</h1>
+
+      <input type="checkbox" name="burger-checkbox" id="burger-checkbox" />
+      <label for="burger-checkbox" class="burger-btn">
+        <img src="images/burger-icon.svg" alt="burger button" />
+      </label>
+
+      <nav id="standings-buttons">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/drivers.html">Driver Standings</a></li>
+          <li><a href="/constructors.html">Constructor Standings</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Pos</th>
+            <th>Constructor</th>
+            <th>Points</th>
+          </tr>
+        </thead>
+        <tbody id="constructors-body"></tbody>
+      </table>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 F1 Standings</p>
+    </footer>
+
+    <script src="scripts/constructors.js"></script>
+  </body>
+</html>
